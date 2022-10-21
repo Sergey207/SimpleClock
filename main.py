@@ -1,5 +1,3 @@
-import pprint
-import threading
 import time
 from pathlib import Path
 
