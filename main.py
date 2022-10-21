@@ -9,7 +9,7 @@ from kivy.uix.label import Label
 
 class SimpleClockApp(App):
     def update_time(self):
-        self.lbl.text = time.strftime('%H:%M:%S')
+        self.lbl.text = time.strftime('%H:%M')
         if self.root_size != self.lbl.size:
             self.root_size = self.lbl.size.copy()
             self.lbl.font_size = self.root_size[1] // 2
